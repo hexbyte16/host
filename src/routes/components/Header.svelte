@@ -11,21 +11,21 @@
     function changeTheme(){
 	if (currentTheme == darkMode) {
 	    currentTheme = lightMode;
-	    theme.set("text-black bg-white h-screen");
+	    theme.set("text-white bg-white h-screen");
     	
 	} else {
 
 	    currentTheme = darkMode;
-	    theme.set("text-white bg-stone-900 h-screen");
+	    theme.set("text-white bg-[#1B1B27] h-screen");
 	}
     }
 
 
 </script>
     
-<div class="flex px-12 py-6">
+<div class="flex px-12 py-6 bg-[#24242F]">
     {@html logo} 
-    <ul class="flex w-1/3">
+    <ul class="flex w-1/3 items-center">
 	<li><button class={buttonStyle}>Services</button></li>
 	<li><button class={buttonStyle}>Discord</button></li>
 	<li><button class={buttonStyle}>Contact</button></li>

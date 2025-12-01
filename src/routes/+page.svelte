@@ -5,6 +5,5 @@
 
 <div class = {$theme}>
     <Home/>
-
 </div>
 
